@@ -1,0 +1,169 @@
+div.jumbotron 
+{
+	background : transparent;
+	padding-top : 5px;
+	margin-bottom : 0;
+}
+
+div.jumbotron div.col
+{
+	background-color : #1e1e1e;
+	color : #FAFAFA;
+	margin-bottom : 0;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+div.jumbotron h1
+{
+	background : transparent url(../images/header_sm.png) no-repeat left;
+	font-size : 50px;
+	text-align : center;
+	margin-top : 10px;
+}
+
+.btn-primary
+{
+	color: #fff;
+	background-color: #66a52c;
+	border-color: #5a9227;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary.active
+{
+  background-color: #5a9227;
+  border-color: #66a52c;
+}
+
+.block .btn
+{
+	font-size : 200%;
+	margin : 1em;
+	padding : 0 2em;
+}
+
+
+body 
+{
+	background : #EAE9EA url(../images/wrapper_site.gif) 0 0 repeat-x;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.block 
+{
+	padding : 10px;
+	border-radius: 10px;
+	border-radius: 10px;
+	background : #FFFFFF;
+	color : #66a52c;
+	margin-bottom : 20px;
+}
+
+.block h3
+{
+	margin-top : 0;
+	font-weight : bold;
+}
+
+/* super block */
+
+.block.super
+{	
+	background : #731b05;
+	color : #FEFEFE;
+}
+
+.block.super h3
+{
+}
+
+.block.super a
+{
+	color : #FFFFFF;
+	text-decoration : underline;
+}
+
+/* end block super */
+
+/* block form */
+
+.block.form
+{
+	padding : 0;
+	text-align : center;
+	color : #333333;
+	font-size : 150%;
+}
+
+.block.form h3
+{
+	background : #731b05;
+	color : #FEFEFE;
+	padding : 5px;
+	border-radius: 10px;
+}
+
+.block.form form
+{
+	display : block;
+	padding : 10px;
+	margin-top : 20px;
+	text-align : left;
+}
+
+.block.form .input-group
+{
+	width : 10em;
+	margin: auto;
+	margin-bottom : 20px;
+}
+
+.block.form label
+{
+	display : block;
+}
+
+.block.form input,
+.block.form select
+{
+	display : block;
+}
+
+.block.form input[type=number]
+{
+	width : 7em;
+}
+
+.block.form .help-block
+{	
+	font-size : medium;
+}
+
+.block.form .help-block.hid
+{
+	display : none;
+}
+
+/* end block form */
+
+/* button */
+
+.btnHolder
+{
+	text-align : center;
+}
+
+/* end buttons */
+
+@media (max-width: 700px) {
+  div.jumbotron h1 {
+    font-size : 32px;
+  }
+  
+  @media (max-width: 500px) {
+ div.jumbotron h1 {
+    font-size : 24px;
+ }
